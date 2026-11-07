@@ -1,0 +1,76 @@
+[window]
+opacity = 0.90
+blur = true
+
+decorations = "None"
+padding = { x = 16, y = 14 }
+dynamic_padding = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "Noto Sans Mono CJK JP", style = "Regular" }
+bold = { family = "Noto Sans Mono CJK JP", style = "Bold" }
+italic = { family = "Noto Sans Mono CJK JP", style = "Italic" }
+size = 14.0
+
+offset = { x = 0, y = 2 }
+glyph_offset = { x = 0, y = 0 }
+
+[colors]
+
+[colors.primary]
+background = "#20282E"
+foreground = "#D5DEE0"
+dim_foreground = "#87969B"
+bright_foreground = "#F0F4F4"
+
+[colors.cursor]
+text = "#20282E"
+cursor = "#83B8C4"
+
+[colors.selection]
+text = "#E5EAEB"
+background = "#45545B"
+
+[colors.normal]
+black   = "#20282E"
+red     = "#C17D78"
+green   = "#91B6A4"
+yellow  = "#C8B994"
+blue    = "#83AFC0"
+magenta = "#B0A3B8"
+cyan    = "#83B8C4"
+white   = "#C6D1D3"
+
+[colors.bright]
+black   = "#45545B"
+red     = "#D5948E"
+green   = "#A8CBBB"
+yellow  = "#D8CBA8"
+blue    = "#A1C6D3"
+magenta = "#C6B8CE"
+cyan    = "#A8D3DB"
+white   = "#F0F4F4"
+
+[colors.dim]
+black   = "#182025"
+red     = "#875E5B"
+green   = "#698779"
+yellow  = "#91866A"
+blue    = "#637F8A"
+magenta = "#817687"
+cyan    = "#648C95"
+white   = "#87969B"
+
+[mouse]
+hide_when_typing = true
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
+osc52 = "CopyPaste"
+
