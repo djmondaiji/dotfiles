@@ -1,1 +1,1 @@
-![screenshot](desktop.png)
+![screenshot](example.png)
